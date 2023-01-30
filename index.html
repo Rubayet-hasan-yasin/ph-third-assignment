@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-emphasis my-2 my-md-3">
+        <div class="container-lg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand">
+                    <img src="images/logo2.png" class="my-3 my-md-0" alt="Bootstrap">
+                </a>
+
+                <ul class="navbar-nav mx-md-auto mb-2 mb-lg-0 asn-poppins-font ">
+                    <li class="nav-item">
+                        <a class="nav-link text-center-md text-center" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item text-center-md text-center">
+                        <a class="nav-link" href="#">Services
+                            <svg viewBox="0 0 96 96" height="16px" xmlns="http://www.w3.org/2000/svg" fill="#707070">
+                                <title />
+                                <path
+                                    d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center-md text-center">
+                        <a class="nav-link" href="#">Cases
+                            <svg viewBox="0 0 96 96" height="16px" xmlns="http://www.w3.org/2000/svg" fill="#707070">
+                                <title />
+                                <path
+                                    d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center-md text-center">
+                        <a class="nav-link" href="#">Blog
+                            <svg viewBox="0 0 96 96" height="16px" xmlns="http://www.w3.org/2000/svg" fill="#707070">
+                                <title />
+                                <path
+                                    d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center-md text-center">
+                        <a class="nav-link" href="#">Contact Us
+                            <svg viewBox="0 0 96 96" height="16px" xmlns="http://www.w3.org/2000/svg" fill="#707070">
+                                <title />
+                                <path
+                                    d="M69.8437,43.3876,33.8422,13.3863a6.0035,6.0035,0,0,0-7.6878,9.223l30.47,25.39-30.47,25.39a6.0035,6.0035,0,0,0,7.6878,9.2231L69.8437,52.6106a6.0091,6.0091,0,0,0,0-9.223Z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger py-3 px-4 fw-bold ans-bg-color" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Free Consultation
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Free Consultation</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body mx-auto">
+                                <img src="images/error.webp" height="250" alt="">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary ans-bg-color" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary ans-bg-color">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- main section 
+    --------------------- -->
+    <main class="container-lg">
+        <!-- We Provide Effective Legal Solutions -
+        ----------------------------------------- -->
+        <section class="container-fluid my-5">
+            <div class="row">
+                <div class="col asn-legal-solution">
+                    <div class="container-fluid">
+                        <div class="text-center text-white">
+                            <h1 class="asn-eb-font asn-legal-taitle fw-bold mt-md-5 mb-4 pt-5">We Provide Effective <br>
+                                Legal Solutions</h1>
+                            <p class="asn-poppins-font fs-md-6 mb-5 asn-legal-description">There The Department of Justice consists of multiple components  and agencies <br> dedicated to upholding our mission. </p>
+
+
+
+                            <form class="d-flex asn-scarsh mx-auto" role="search">
+                                <input class="form-control me-2 p-3" type="search" placeholder="Search your services"
+                                    aria-label="Search">
+                                <button class="btn btn-danger mx-auto mx-md-0 px-3 px-md-4 fw-semibold ans-bg-color"
+                                    type="submit">Search</button>
+                            </form>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- The Legal Practice Area-
+        ----------------------------------- -->
+        <section class="container-fluid ">
+            <div class="row">
+                <h1 class="text-center fw-bold asn-section-title asn-eb-font ">The Legal Practice Area</h1>
+                <p class="text-center asn-poppins-font text-secondary">The mission of the Department of Justice is to uphold the rule of law,  to keep our country safe,<br> and to protect civil rights.Independence and Impartiality.
+
+                </p>
+
+            </div>
+
+            <!-- card -->
+            <div class="row row-cols-1 row-cols-md-3 my-5 py-5">
+                <div class="text-center py-5 border-bottom border-end asn-hover">
+                    <img src="images/business.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Business Law</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">Two businessmen, Vladislav Osipov, 51, a Russian national, and Richard Masters, 52, a United Kingdom national, are charged in separate indictments unsealed today in the U.S. </p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+                <div class="text-center py-5 border-bottom border-end asn-hover">
+                    <img src="images/criminal.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Criminal Law</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">Good morning, everybody.
+
+                        Mayor Suarez, thank you very much for that overly kind introduction. And it is great to be back here with all of you for the 91st Winter Meeting.And it is great.
+                        </p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+                <div class="text-center py-5 border-bottom asn-hover">
+                    <img src="images/child.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Child Support</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">Depending on the jurisdiction, a custodial parent may pay child support to a non-custodial parent.In some jurisdictions where there is joint custody,the child is considered to have two. </p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+                <div class="text-center py-5 border-end asn-hover">
+                    <img src="images/education.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Education Law</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">Education law is a set of rules and regulations that guide the workings of an education system. Many regions have detailed educational law systems.</p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+                <div class="text-center py-5 border-end asn-hover">
+                    <img src="images/divorce.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Divorce Law</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">Divorce entails the cancelation or reorganisation of the legal responsibilities of marriage by dissolving the bonds of marriage between.</p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+                <div class="text-center py-5 asn-hover">
+                    <img src="images/tax.png" height="72" class=" mb-5" alt="">
+                    <h3 class="asn-eb-font fw-bold mb-3">Tax Law</h3>
+                    <p class="asn-poppins-font text-secondary mb-5">tax law, body of rules under which a public authority has a claim on taxpayers, requiring them to transfer to the authority part of their income or property.</p>
+
+                    <img src="images/Frame.png" class="mb-3" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- What Our Client Say -
+        ----------------------------- -->
+        <section class="container-fluid my-5">
+            <div class="row mb-5">
+                <h1 class="text-center fw-bold asn-section-title asn-eb-font ">What Our Client Say</h1>
+                <p class="text-center asn-poppins-font text-secondary">Honesty and Integrity. Our employees adhere to the highest standards of ethical behavior, <br> mindful that, as public servants.</p>
+
+            </div>
+
+            <!-- carousel  -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slider-1.jpg" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <img src="images/Client/Client-1.png" height="70"
+                                class="border border-4 rounded-circle border-light mb-4" alt="">
+                            <h3 class="asn-eb-font fw-semibold">Awlad Hossain</h3>
+                            <p class="asn-poppins-font mb-5">programmer</p>
+                            <p class="asn-poppins-font asn-slider-decription">Contrary to popular At Inkelaar Law helping clients successfully navigate the legal system is our number one priority. Through constant communication and many years of experience, we take a client-centered approach to ensure that you and your case gets the attention it deserves. To let us know how we did leave a review below.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-2.jpg" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <img src="images/Client/Client-2.png" height="70"
+                                class="border border-4 rounded-circle border-light mb-4" alt="">
+                            <h3 class="asn-eb-font fw-semibold">Abu Sufian</h3>
+                            <p class="asn-poppins-font mb-5">Software developer </p>
+                            <p class="asn-poppins-font asn-slider-decription">I would love to thank Scott for the level of professionalism, care and how astutely my family's case was handled. It was a though battle uphill and I am very grateful that we had someone with the level of experience this firm brings to the table. Again, Thank you!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider-3.jpg" height="500" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <img src="images/Client/Client-3.png" height="70"
+                                class="border border-4 rounded-circle border-light mb-4" alt="">
+                            <h3 class="asn-eb-font fw-semibold">Maruf Ahmed</h3>
+                            <p class="asn-poppins-font mb-5">UIX Designer</p>
+                            <p class="asn-poppins-font asn-slider-decription">We had a property dispute with our completely unreasonable neighbors and we hired NBJ attorneys for help. Our lawyer immediately stepped in and took control of the situation. And within one week our problematic neighbor was no longer a problem. We have not heard from her since. Our attorney was aggressive, thoughtful, and very considerate of our money. </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Frequently Asked Any Questions -
+        -------------------------------------------- -->
+        <section class="container-fluid pb-5">
+            <div class="row mb-5">
+                <h1 class="text-center fw-bold asn-section-title asn-eb-font ">Frequently Asked Any Questions</h1>
+                <p class="text-center asn-poppins-font text-secondary">As you can see, FAQ questions are essential for any organization, and if you want to know how to do FAQ and <br> build the content of the list of FAQ questions.</p>
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 flex-column-reverse flex-md-row g-5">
+                <div class="col">
+                    <!-- Accordion  -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item border-0 bg-danger bg-opacity-10">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button
+                                    class="accordion-button fs-5 fw-bold bg-danger bg-opacity-10 text-black text-opacity-75 asn-eb-font"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    1. What is the difference between Flex and Flexbox?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        The difference between CSS Grid and CSS Flexbox. flexbox is designed for one
+                                        dimension layout. Grid is designed for two-dimensional layout - rows, and
+                                        columns at the same time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 bg-danger bg-opacity-10">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button
+                                    class="accordion-button collapsed fs-5 fw-bold bg-danger bg-opacity-10 text-black text-opacity-75 asn-eb-font"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    2. what is the purpose of media query?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        It's help to make a website responsive. Made a web page with rows and columns,
+                                        and it was responsive, but it not look good on a small screen.
+
+                                        Media queries can help with that. We can add a breakpoint where- of the design
+                                        will be have differently on each side of the breakpoint.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 bg-danger bg-opacity-10">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button
+                                    class="accordion-button collapsed fs-5 fw-bold bg-danger bg-opacity-10 text-black text-opacity-75 asn-eb-font"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
+                                    3. what is css box model and how does it work.
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Any element in HTML is a box. And that box contains the margin, border, padding
+                                        and the main content. All these together form a box - which we call the box of
+                                        the HTML element and this box is called the box model. <br>
+                                        In CSS, we use the box model to determine the size of our content, and to create
+                                        space around elements with padding, borders, and margin.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 bg-danger bg-opacity-10">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button
+                                    class="accordion-button collapsed fs-5 fw-bold bg-danger bg-opacity-10 text-black text-opacity-75 asn-eb-font"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                    aria-expanded="false" aria-controls="collapseFour">
+                                    4. What is semantic tag?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        A semantic element clearly describes its meaning to both the browser and the
+                                        developer. <br>
+                                        The semantic HTML tags help the search engines and other user devices to
+                                        determine the importance and context of web pages. The pages made with semantic
+                                        elements are much easier to read. It has greater accessibility. It offers a
+                                        better user experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <img src="images/faq.png" height="500" class="asn-accordion" alt="">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact With Us -
+        ----------------------------- -->
+        <section class="container-lg">
+            <div class="row mb-5">
+                <h1 class="text-center fw-bold asn-section-title asn-eb-font ">Contact With Us</h1>
+                <p class="text-center asn-poppins-font text-secondary">We aren't able to provide direct advice to people who are claiming benefits or to their friends and families, <br> but other organisations may be able to help.</p>
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <!-- card contact -->
+                    <div class="row row-cols-2 my-5 py-5">
+                        <div class="text-center py-5 border-bottom border-end asn-hover">
+                            <img src="images/business.png" height="72" class=" mb-5" alt="">
+                            <h3 class="asn-eb-font fw-bold mb-3">Address</h3>
+                            <p class="asn-poppins-font text-secondary mb-5">
+                                A108 Adam Street, <br>
+                                New York, NY 535022
+                            </p>
+                        </div>
+                        <div class="text-center py-5 border-bottom asn-hover">
+                            <img src="images/criminal.png" height="72" class=" mb-5" alt="">
+                            <h3 class="asn-eb-font fw-bold mb-3">Call Us</h3>
+                            <p class="asn-poppins-font text-secondary mb-5">
+                                +88 01750 00 00 00 <br>
+                                +88 01750 00 00 00
+                            </p>
+                        </div>
+                        <div class="text-center py-5 asn-hover">
+                            <img src="images/email.png" height="72" class=" mb-5" alt="">
+                            <h3 class="asn-eb-font fw-bold mb-3">Email Us</h3>
+                            <p class="asn-poppins-font text-secondary mb-5">
+                                info@gmail.com <br>
+                                info@gmail.com
+                            </p>
+                        </div>
+                        <div class="text-center py-5 border-start asn-hover">
+                            <img src="images/time.png" height="72" class=" mb-5" alt="">
+                            <h3 class="asn-eb-font fw-bold mb-3">Working Hours</h3>
+                            <p class="asn-poppins-font text-secondary mb-5">
+                                Mon-Fri: 9AM to 5PM <br>
+                                Sunday: 9AM to 1 PM
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col my-5 py-5">
+                    <form class="ms-md-5 ">
+                        <input class="form-control border-0 mb-4 bg-danger bg-opacity-10 py-4" type="text" maxlength="15" placeholder="Your Name">
+
+                        <input class="form-control border-0 mb-4 bg-danger bg-opacity-10 py-4" type="email" maxlength="20" placeholder="Your Email">
+
+                        <input class="form-control border-0 mb-4 bg-danger bg-opacity-10 py-4" type="text" maxlength="15" placeholder="Subject">
+
+                        <textarea class="form-control border-0 mb-4 bg-danger bg-opacity-10" name="" id="floatingTextarea" cols="30" rows="13" placeholder="Your Message"></textarea>
+
+                        <button class="btn btn-danger py-4 w-100 fw-semibold fs-5 ans-bg-color" type="submit">Send Message</button>
+                      </form>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+    </main>
+
+
+    <!-- footer section ---
+------------------------ -->
+    <footer class="container-fluid bg-dark py-md-5 mt-5">
+        <div class="container-xl my-md-5">
+            <div class="row row-cols-1 row-cols-md-4 text-white">
+                <div class="col  pe-5">
+                    <h2 class="asn-eb-font text-white mt-5 fw-semibold mb-5"><img src="images/business.png" height="45"
+                            class="pb-2 pe-2" alt=""> Justice</h2>
+                    <p class="asn-poppins-font text-white opacity-75">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour.
+                    </p>
+                </div>
+
+                <div class="col ">
+                    <h4 class="asn-eb-font text-white mt-5 fw-semibold mb-5">Usefull Link</h4>
+
+                    <ul class="navbar-nav asn-poppins-font text-white opacity-75">
+                        <li class="">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Cases</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <h4 class="asn-eb-font text-white mt-5 fw-semibold mb-5">Usefull Link</h4>
+
+                    <p class="asn-poppins-font text-white opacity-75">555 4th 5t NW, Washington <br>
+                        DC 20530, United States</p>
+
+                    <p class="asn-poppins-font text-white opacity-75">
+                        +88 01750 000 000 <br>
+                        +88 01750 000 000
+                    </p>
+
+                    <p class="asn-poppins-font text-white opacity-75">
+                        info@gmail.com <br>
+                        info@gmail.com
+                    </p>
+
+                </div>
+
+                <div class="col">
+                    <h4 class="asn-eb-font text-white mt-5 fw-semibold mb-5">Subscribe</h4>
+
+                    <p class="asn-poppins-font text-white opacity-75">
+                        Subscribe for our latest & Articles. We Won't Give You Spam Mails
+                    </p>
+
+                    <form class="d-flex mb-5 mb-md-0" role="search">
+                        <input class="form-control py-3 fw-semibold" type="email" placeholder="Email Address"
+                            aria-label="Search">
+                        <button class="btn btn-danger asn-button px-4 ans-bg-color" type="submit"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-send" viewBox="0 0 16 16">
+                                <path
+                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js file 
+    ------------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
